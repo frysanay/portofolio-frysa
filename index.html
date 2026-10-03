@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frysa Nayla Ayu — UI/UX Designer & Front-End Developer</title>
+  <meta name="description"
+    content="Personal portfolio of Frysa Nayla Ayu. UI/UX Designer & Front-End Developer creating clean, interactive, and pretty digital experiences.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5.3 & Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Ambient Atmospheric Lighting -->
+  <div class="ambient-background" aria-hidden="true">
+    <div class="blob blob-petal"></div>
+    <div class="blob blob-fern"></div>
+    <div class="blob blob-center"></div>
+  </div>
+
+  <!-- ==========================================
+       1. HERO SECTION (NO NAV ABOVE HERO!)
+       ========================================== -->
+  <header>
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+
+          <!-- LEFT COLUMN: Intro Text -->
+          <div class="col-lg-6 reveal-element">
+            <div class="hero-eyebrow">
+              <span class="pixel-star-sm" aria-hidden="true"></span> Ssup!, I'm Frysa
+            </div>
+
+            <h1 class="hero-headline">
+              Code Sassy,<br>
+              <span class="text-accent">Think Classy.</span>
+            </h1>
+
+            <div class="hero-role">
+              <span class="hero-role-badge"></span>
+              <span>UI/UX Designer & Front-End Developer</span>
+            </div>
+
+            <p class="hero-intro">
+              Making things pretty, making things work, and lowkey breaking both.
+            </p>
+          </div>
+
+          <!-- RIGHT COLUMN: Pixel Art Character & Frame -->
+          <div class="col-lg-6">
+            <div class="hero-visual-container reveal-element delay-2">
+
+              <!-- Floating Pixel Decor Badges (Reduced to 2 for clean balance) -->
+              <div class="floating-pixel-decor decor-1">
+                <div class="decor-block">✦ UI/UX & Front-End</div>
+              </div>
+              <div class="floating-pixel-decor decor-2">
+                <div class="decor-block decor-block-fern">★ 2 AM Bug Solver</div>
+              </div>
+
+              <!-- Subtle Floating Pixel Particles -->
+              <div class="pixel-particle p-1" aria-hidden="true"></div>
+              <div class="pixel-particle p-2" aria-hidden="true"></div>
+              <div class="pixel-particle p-3" aria-hidden="true"></div>
+              <div class="pixel-particle p-4" aria-hidden="true"></div>
+              <div class="pixel-particle p-5" aria-hidden="true"></div>
+
+              <!-- Glass Card Frame -->
+              <div class="hero-glass-card">
+                <div class="hero-character-wrapper">
+                  <img src="assets/frysa-pixel.png" alt="Pixel art avatar of Frysa Nayla Ayu holding a cozy drink"
+                    class="hero-character-img">
+                </div>
+
+                <div class="hero-status-pill">
+                  <span class="status-dot"></span>
+                  <span>Learning • Designing • Coding</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- ==========================================
+       2. NAVIGATION (PLACED AFTER HERO)
+       ========================================== -->
+  <div class="nav-wrapper">
+    <nav class="nav-pill-container" aria-label="Main Navigation">
+      <a href="#about" class="nav-link-item active">About</a>
+      <a href="#skills" class="nav-link-item">Skills</a>
+      <a href="#projects" class="nav-link-item">Projects</a>
+      <a href="#contact" class="nav-link-item">Contact</a>
+    </nav>
+  </div>
+
+  <main>
+    <!-- ==========================================
+         3. ABOUT SECTION
+         ========================================== -->
+    <section id="about">
+      <div class="container">
+        <div class="text-center mb-5 reveal-element">
+          <div class="section-label">
+            <span class="pixel-square"></span> // ABOUT ME
+          </div>
+          <h2 class="section-title">Who is Frysa?</h2>
+        </div>
+
+        <div class="row g-4 mb-5">
+          <!-- Main Editorial Glass Card -->
+          <div class="col-lg-8 reveal-element delay-1">
+            <div class="about-quote-card">
+              <div class="about-big-quote">
+                "Just a girl who likes pretty interfaces, clean code, and a little bit of chaos."
+              </div>
+              <p class="about-body-text mb-0">
+                UI/UX? We listen and we don’t judge. Front-End? Say less. I’m into creating clean, interactive, and
+                actually usable digital experiences. Basically, turning random ideas into something that hits. Still
+                learning. Still cooking. Still fighting for my life when the code randomly decides to stop working.
+              </p>
+            </div>
+          </div>
+
+          <!-- Metadata Side Cards -->
+          <div class="col-lg-4">
+            <div class="row g-3">
+              <div class="col-12 reveal-element delay-2">
+                <div class="meta-card">
+                  <div class="meta-header">NAME</div>
+                  <p class="meta-content">Frysa Nayla Ayu</p>
+                </div>
+              </div>
+
+              <div class="col-12 reveal-element delay-3">
+                <div class="meta-card">
+                  <div class="meta-header">ROLE</div>
+                  <p class="meta-content">UI/UX Designer & Front-End Developer</p>
+                </div>
+              </div>
+
+              <div class="col-12 reveal-element delay-4">
+                <div class="meta-card">
+                  <div class="meta-header">CURRENTLY</div>
+                  <p class="meta-content">Learning • Designing • Coding</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         4. SKILLS SECTION
+         ========================================== -->
+    <section id="skills">
+      <div class="container">
+        <div class="text-center mb-5 reveal-element">
+          <div class="section-label">
+            <span class="pixel-star-sm"></span> // TECH & CREATIVE
+          </div>
+          <h2 class="section-title">Skills & Toolkit</h2>
+          <p class="section-subtitle mx-auto">
+            A mix of code, design tools, and persistent problem solving.
+          </p>
+        </div>
+
+        <div class="row g-5">
+          <!-- DEVELOPMENT SKILLS -->
+          <div class="col-lg-6 reveal-element delay-1">
+            <div class="skills-category-title">
+              <i class="bi bi-code-slash title-icon"></i>
+              <span>DEVELOPMENT</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <span class="skill-name">HTML</span>
+                <span class="skill-percentage">69%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" data-percentage="69"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <span class="skill-name">CSS</span>
+                <span class="skill-percentage">67%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" data-percentage="67"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percentage">45%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" data-percentage="45"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <span class="skill-name">PHP</span>
+                <span class="skill-percentage">71%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" data-percentage="71"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <span class="skill-name">Laravel</span>
+                <span class="skill-percentage">60%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" data-percentage="60"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <span class="skill-name">MySQL</span>
+                <span class="skill-percentage">68%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" data-percentage="68"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <span class="skill-name">Python</span>
+                <span class="skill-percentage">65%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" data-percentage="65"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <span class="skill-name">C#</span>
+                <span class="skill-percentage">50%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" data-percentage="50"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <span class="skill-name">API</span>
+                <span class="skill-percentage">50%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" data-percentage="50"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DESIGN SKILLS -->
+          <div class="col-lg-6 reveal-element delay-2">
+            <div class="skills-category-title design">
+              <i class="bi bi-palette title-icon"></i>
+              <span>DESIGN</span>
+            </div>
+
+            <div class="skill-card design-skill">
+              <div class="skill-info">
+                <span class="skill-name">Figma</span>
+                <span class="skill-percentage">50%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" data-percentage="50"></div>
+              </div>
+            </div>
+
+            <div class="skill-card design-skill">
+              <div class="skill-info">
+                <span class="skill-name">Canva</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" data-percentage="85"></div>
+              </div>
+            </div>
+
+            <div class="skill-card design-skill">
+              <div class="skill-info">
+                <span class="skill-name">Prototyping</span>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" data-percentage="75"></div>
+              </div>
+            </div>
+
+            <div class="skill-card design-skill">
+              <div class="skill-info">
+                <span class="skill-name">Wireframing</span>
+                <span class="skill-percentage">70%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" data-percentage="70"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         5. PROJECTS SECTION
+         ========================================== -->
+    <section id="projects">
+      <div class="container">
+        <div class="text-center mb-5 reveal-element">
+          <div class="section-label">
+            <span class="pixel-square"></span> // PORTFOLIO WORK
+          </div>
+          <h2 class="section-title">Selected Projects</h2>
+          <p class="section-subtitle mx-auto">
+            A showcase of games, web applications, and UI/UX design exploration.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- PROJECT 01: LaPawr -->
+          <div class="col-lg-4 col-md-6 reveal-element delay-1">
+            <div class="project-card">
+              <div class="project-image-preview">
+                <div class="project-preview-pattern"></div>
+                <div class="project-preview-badge">
+                  <i class="bi bi-controller"></i> PROJECT PREVIEW
+                </div>
+              </div>
+              <div class="project-card-body">
+                <span class="project-category-tag">Unity Game</span>
+                <h3 class="project-title">LaPawr</h3>
+                <p class="project-description">
+                  A game project created using Unity. Published and uploaded to itch.io.
+                </p>
+                <div class="project-footer-link">
+                  <span>View Project</span>
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 02: Unity Projects -->
+          <div class="col-lg-4 col-md-6 reveal-element delay-2">
+            <div class="project-card">
+              <div class="project-image-preview">
+                <div class="project-preview-pattern"></div>
+                <div class="project-preview-badge">
+                  <i class="bi bi-joystick"></i> PROJECT PREVIEW
+                </div>
+              </div>
+              <div class="project-card-body">
+                <span class="project-category-tag">Game Development</span>
+                <h3 class="project-title">Unity Projects</h3>
+                <p class="project-description">
+                  Small Unity projects and interactive game assignments created during university coursework.
+                </p>
+                <div class="project-footer-link">
+                  <span>View Collection</span>
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 03: Figma Designs -->
+          <div class="col-lg-4 col-md-6 reveal-element delay-3">
+            <div class="project-card">
+              <div class="project-image-preview">
+                <div class="project-preview-pattern"></div>
+                <div class="project-preview-badge">
+                  <i class="bi bi-figma"></i> PROJECT PREVIEW
+                </div>
+              </div>
+              <div class="project-card-body">
+                <span class="project-category-tag">UI/UX Design</span>
+                <h3 class="project-title">Figma Designs</h3>
+                <p class="project-description">
+                  Simple interface design, wireframing, and interactive UI exploration created in Figma.
+                </p>
+                <div class="project-footer-link">
+                  <span>Explore Designs</span>
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 04: Web Projects -->
+          <div class="col-lg-4 col-md-6 reveal-element delay-1">
+            <div class="project-card">
+              <div class="project-image-preview">
+                <div class="project-preview-pattern"></div>
+                <div class="project-preview-badge">
+                  <i class="bi bi-globe"></i> PROJECT PREVIEW
+                </div>
+              </div>
+              <div class="project-card-body">
+                <span class="project-category-tag">Web Development</span>
+                <h3 class="project-title">Web Projects</h3>
+                <p class="project-description">
+                  A series of custom responsive web applications developed during coursework:
+                </p>
+                <div class="project-included-list">
+                  <span class="project-subchip">Wigglepop</span>
+                  <span class="project-subchip">Travelday</span>
+                  <span class="project-subchip">Sipamas</span>
+                </div>
+                <div class="project-footer-link">
+                  <span>View Details</span>
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 05: DineDrop -->
+          <div class="col-lg-4 col-md-6 reveal-element delay-2">
+            <div class="project-card">
+              <div class="project-image-preview">
+                <div class="project-preview-pattern"></div>
+                <div class="project-preview-badge">
+                  <i class="bi bi-phone"></i> PROJECT PREVIEW
+                </div>
+              </div>
+              <div class="project-card-body">
+                <span class="project-category-tag">Mobile App</span>
+                <h3 class="project-title">DineDrop</h3>
+                <p class="project-description">
+                  A mobile application concept and UI project centered around seamless food delivery & dining.
+                </p>
+                <div class="project-footer-link">
+                  <span>View Concept</span>
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 06: Retro Tetris -->
+          <div class="col-lg-4 col-md-6 reveal-element delay-3">
+            <div class="project-card">
+              <div class="project-image-preview">
+                <div class="project-preview-pattern"></div>
+                <div class="project-preview-badge">
+                  <i class="bi bi-grid-3x3"></i> PROJECT PREVIEW
+                </div>
+              </div>
+              <div class="project-card-body">
+                <span class="project-category-tag">Python</span>
+                <h3 class="project-title">Retro Tetris</h3>
+                <p class="project-description">
+                  A classic retro-style Tetris game built from scratch using Python.
+                </p>
+                <div class="project-footer-link">
+                  <span>View Game</span>
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         6. CONTACT SECTION
+         ========================================== -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact-container-card reveal-element">
+          <div class="row align-items-center gy-4">
+
+            <div class="col-lg-6">
+              <div class="section-label">
+                <span class="pixel-star-sm"></span> // GET IN TOUCH
+              </div>
+              <h2 class="contact-headline">Let's make something cool.</h2>
+              <p class="contact-supporting">
+                Got an idea, a project, or just want to say hi? Feel free to drop a message!
+              </p>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="row g-3">
+
+                <!-- Email Contact Card -->
+                <div class="col-12">
+                  <div class="contact-card-item" id="email-contact-card" role="button" title="Click to copy email">
+                    <div class="contact-icon-box">
+                      <i class="bi bi-envelope"></i>
+                    </div>
+                    <div>
+                      <div class="contact-label">EMAIL (CLICK TO COPY)</div>
+                      <div class="contact-value">frysanaylaayu@gmail.com</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Instagram Card -->
+                <div class="col-md-6">
+                  <a href="https://instagram.com/nyfrysa" target="_blank" rel="noopener noreferrer"
+                    class="contact-card-item instagram">
+                    <div class="contact-icon-box">
+                      <i class="bi bi-instagram"></i>
+                    </div>
+                    <div>
+                      <div class="contact-label">INSTAGRAM</div>
+                      <div class="contact-value">@nyfrysa</div>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- GitHub Card -->
+                <div class="col-md-6">
+                  <a href="https://github.com/frysanay" target="_blank" rel="noopener noreferrer"
+                    class="contact-card-item">
+                    <div class="contact-icon-box">
+                      <i class="bi bi-github"></i>
+                    </div>
+                    <div>
+                      <div class="contact-label">GITHUB</div>
+                      <div class="contact-value">frysanay</div>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       7. FOOTER
+       ========================================== -->
+  <footer>
+    <div class="container text-center">
+      <div class="mb-3">
+        <span class="pixel-star"></span>
+      </div>
+      <div class="footer-copy">
+        © 2026 Frysa Nayla Ayu
+      </div>
+      <div class="footer-tagline">
+        Still learning. Still cooking. Still debugging.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification for Email Copy -->
+  <div id="copy-toast" class="copy-toast">
+    <i class="bi bi-check-circle-fill me-2"></i> Email copied to clipboard!
+  </div>
+
+  <!-- Bootstrap 5.3 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+
+</html>
